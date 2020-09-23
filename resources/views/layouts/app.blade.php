@@ -77,7 +77,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/home">Dashboard</a>
                             </li>
-                            @if (Auth::user()->email=='Maecheenoi3@gmail.com')
+                            @if (Auth::user()->role=='Administrator')
                             <li class="nav-item">
                                 <a class="nav-link" href="/admin">Admin</a>
                             </li>
